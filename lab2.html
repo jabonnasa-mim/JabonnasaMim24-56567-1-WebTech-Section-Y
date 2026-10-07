@@ -1,0 +1,432 @@
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+</head>
+
+<body>
+
+    <!-- Paragraph -->
+    <p>This is a paragraph.</p>
+     <p>this is a para 😊</p>
+
+
+    <!-- Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+
+    <!-- Link -->
+    <a href="https://www.google.com">Google Link</a>
+
+    <br>
+
+
+    <!-- User ID -->
+    <label for="userId">User ID:</label>
+
+    <input
+        type="text"
+        id="userId"
+        name="userId"
+        placeholder="Enter your user id"
+        required
+    >
+
+    <br>
+
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+
+    <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+    >
+
+    <br>
+
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+
+    <br>
+    <br>
+
+
+    <!-- Gender -->
+    <label>Gender:</label>
+
+    <input
+        type="radio"
+        id="male"
+        name="gender"
+        value="male"
+    >
+    <label for="male">Male</label>
+
+    <input
+        type="radio"
+        id="female"
+        name="gender"
+        value="female"
+    >
+    <label for="female">Female</label>
+
+    <br>
+    <br>
+
+
+    <!-- Skills -->
+    <label>Skills:</label>
+
+    <input
+        type="checkbox"
+        id="html"
+        name="skills"
+        value="HTML"
+    >
+    <label for="html">HTML</label>
+
+    <input
+        type="checkbox"
+        id="css"
+        name="skills"
+        value="CSS"
+    >
+    <label for="css">CSS</label>
+
+    <input
+        type="checkbox"
+        id="javascript"
+        name="skills"
+        value="JavaScript"
+    >
+    <label for="javascript">JavaScript</label>
+
+    <br>
+
+
+    <!-- Date -->
+    <label for="date">Date:</label>
+
+    <input
+        type="date"
+        id="date"
+        name="date"
+    >
+
+    <br>
+
+
+    <!-- File -->
+    <label for="file">File:</label>
+
+    <input
+        type="file"
+        id="file"
+        name="file"
+    >
+
+    <br>
+
+
+    <!-- Department -->
+    <label for="department">Department:</label>
+
+    <select
+        id="department"
+        name="department"
+    >
+        <option value="CSE">CSE</option>
+        <option value="CS">CS</option>
+        <option value="EEE">EEE</option>
+        <option value="BBA">BBA</option>
+    </select>
+
+    <br>
+    <br>
+
+
+    <!-- Address Textarea -->
+    <label for="address">Address:</label>
+
+    <br>
+
+    <textarea
+        id="address"
+        name="address"
+        rows="5"
+        cols="30"
+        placeholder="Enter your address"
+    ></textarea>
+
+    <br>
+    <br>
+
+
+    <!-- Unordered List -->
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+
+    <br>
+
+
+    <!-- Ordered List -->
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <br>
+
+
+    <!-- Image -->
+    <img
+        src="data:image/jpeg;base64,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"
+        alt="Tree Image"
+        width="250"
+    >
+
+    <br>
+    <br>
+
+
+    <!-- Div -->
+    <div>This is div 1</div>
+    <div>This is div 2</div>
+
+    <br>
+
+
+    <!-- Span -->
+    <span>This is span 1</span>
+    <span>This is span 2</span>
+
+    <br>
+    <br>
+
+
+    <!-- Table -->
+    <table border="1">
+
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Dept</th>
+        </tr>
+
+        <tr>
+            <td>Jabonnasa</td>
+            <td>1</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>Mim</td>
+            <td>2</td>
+            <td>CS</td>
+        </tr>
+
+    </table>
+
+    <br>
+    <br>
+
+
+    <!-- Form Using Table -->
+    <form>
+
+        <table>
+
+            <tr>
+                <td>
+                    <label for="username">Name:</label>
+                </td>
+
+                <td>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter your username"
+                        required
+                    >
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="formPassword">Password:</label>
+                </td>
+
+                <td>
+                    <input
+                        type="password"
+                        id="formPassword"
+                        name="formPassword"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+
+                <td>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="phone">Phone:</label>
+                </td>
+
+                <td>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                    >
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="formAddress">Address:</label>
+                </td>
+
+                <td>
+                    <textarea
+                        id="formAddress"
+                        name="formAddress"
+                        rows="4"
+                        cols="25"
+                        placeholder="Enter your address"
+                    ></textarea>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="formDepartment">Department:</label>
+                </td>
+
+                <td>
+                    <select
+                        id="formDepartment"
+                        name="formDepartment"
+                    >
+                        <option value="CSE">CSE</option>
+                        <option value="CS">CS</option>
+                        <option value="EEE">EEE</option>
+                        <option value="BBA">BBA</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+
+                <td>
+                    <input
+                        type="radio"
+                        id="formMale"
+                        name="formGender"
+                        value="male"
+                    >
+                    <label for="formMale">Male</label>
+
+                    <input
+                        type="radio"
+                        id="formFemale"
+                        name="formGender"
+                        value="female"
+                    >
+                    <label for="formFemale">Female</label>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label>Skills:</label>
+                </td>
+
+                <td>
+                    <input
+                        type="checkbox"
+                        id="skillHtml"
+                        name="formSkills"
+                        value="HTML"
+                    >
+                    <label for="skillHtml">HTML</label>
+
+                    <input
+                        type="checkbox"
+                        id="skillCss"
+                        name="formSkills"
+                        value="CSS"
+                    >
+                    <label for="skillCss">CSS</label>
+
+                    <input
+                        type="checkbox"
+                        id="skillJs"
+                        name="formSkills"
+                        value="JavaScript"
+                    >
+                    <label for="skillJs">JavaScript</label>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
